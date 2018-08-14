@@ -22,6 +22,7 @@
         android:id="@+id/editText"
         android:layout_width="238dp"
         android:layout_height="wrap_content"
+
         android:layout_margin="20dp"
         android:hint="@string/to" />
 
