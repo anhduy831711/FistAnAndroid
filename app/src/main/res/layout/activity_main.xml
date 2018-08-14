@@ -5,10 +5,31 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:orientation="vertical" >
-    <EditText
+    <android.support.v7.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Các Kiểu Lập Trình Sự Kiện"
+        android:textAlignment="center"
+        android:background="@color/colorBlue"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/appCompatTextView"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:text="Số a:" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
         android:hint="@string/to" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.LinearLayoutCompat>
+
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
